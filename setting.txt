@@ -1,0 +1,30 @@
+# Tạo folder mới
+mkdir my-project
+cd my-project
+
+# Khởi tạo npm project
+npm init
+
+# Hoặc skip các câu hỏi
+npm init -y
+
+
+//CAI DAT PACKAGE
+# Cài package và lưu vào dependencies
+npm install express
+
+# Cài nhiều packages cùng lúc
+npm install express body-parser cors
+
+# Cài dev dependencies (chỉ dùng khi dev)
+npm install --save-dev nodemon
+
+# Cài global (dùng command line)
+npm install -g nodemon
+
+# Cài version cụ thể
+npm install express@4.18.0
+
+# Xóa package
+npm uninstall express
+
