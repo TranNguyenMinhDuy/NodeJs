@@ -1,0 +1,38 @@
+# .env.example - Template cho người khác
+
+# Server
+PORT=3000
+NODE_ENV=development
+
+# Database
+DATABASE_URL=your_database_url_here
+DATABASE_USER=your_username
+DATABASE_PASSWORD=your_password
+
+# API Keys
+API_KEY=your_api_key_here
+JWT_SECRET=your_jwt_secret_here
+
+# Other
+MAX_FILE_SIZE=5242880
+RATE_LIMIT=100
+```
+
+**Hướng dẫn cho người khác:**
+1. Copy `.env.example` thành `.env`
+2. Điền thông tin thực vào `.env`
+
+---
+
+## **Phần 2: CORS - Cross-Origin Resource Sharing (45 phút)**
+
+### **2.1 CORS là gì?**
+
+**CORS** = Cho phép frontend (domain khác) gọi API của bạn.
+
+**Vấn đề:**
+```
+Frontend: http://localhost:3001
+Backend:  http://localhost:3000
+
+→ Mặc định: BROWSER CHẶN (CORS error)

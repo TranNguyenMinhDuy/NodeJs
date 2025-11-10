@@ -8,7 +8,6 @@ npm init
 # Hoặc skip các câu hỏi
 npm init -y
 
-
 //CAI DAT PACKAGE
 # Cài package và lưu vào dependencies
 npm install express
@@ -27,4 +26,22 @@ npm install express@4.18.0
 
 # Xóa package
 npm uninstall express
+
+//cai dat dotenv
+npm install dotenv
+
+//cai dat cors
+npm install cors
+
+//helmet
+npm install helmet
+
+//rate limiting with express-rate-limit
+npm install express-rate-limit
+
+//input sanitization
+npm install express-validator
+
+//password hashing voi bcrypt
+npm install bcrypt
 
